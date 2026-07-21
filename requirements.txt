@@ -1,5 +1,5 @@
 streamlit
-requests
 pandas
+requests
 python-dotenv
-openai
+google-genai
