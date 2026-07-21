@@ -200,7 +200,7 @@ try:
         placeholder="Example: Give me a founder-level summary of work orders and deals.",
         height=120
     )
-        if st.button("🚀 Analyze Business Data", use_container_width=True):
+    if st.button("🚀 Analyze Business Data", use_container_width=True):
 
         st.markdown("---")
 
