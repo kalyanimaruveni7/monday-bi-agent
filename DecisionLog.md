@@ -1,32 +1,34 @@
 # Decision Log
 
-## Technology Choices
-
-### Python
-Chosen because it provides excellent support for API integration and rapid development.
-
-### Streamlit
-Used to quickly build an interactive web interface.
-
-### Monday.com GraphQL API
-Used as the primary data source for retrieving board information.
-
-### Google Gemini
-Used to generate business insights from Monday.com data.
-
-### Pandas
-Used for data handling and summarization.
+## Project Overview
+Built a Business Intelligence Agent using Python and Streamlit that connects to Monday.com and answers business questions using Google Gemini.
 
 ## Design Decisions
 
-- Used separate modules for API communication and AI integration.
-- Focused on Work Orders and Deals boards.
-- Added handling for missing values.
-- Designed a simple and user-friendly interface.
+### Python
+Chosen for rapid development and API integration.
+
+### Streamlit
+Used to quickly build an interactive web application.
+
+### Monday.com GraphQL API
+Selected as the primary data source for retrieving Work Orders and Deals.
+
+### Google Gemini
+Used to generate AI-powered business insights from Monday.com data.
+
+### Pandas
+Used for processing and summarizing board data.
+
+## Assumptions
+
+- The application works with Work Orders and Deals boards.
+- Missing values are handled gracefully.
+- The system provides read-only access to Monday.com.
 
 ## Future Improvements
 
-- More advanced analytics
-- Charts and dashboards
-- Export reports to PDF/Excel
-- Authentication and role-based access
+- Interactive charts and dashboards
+- Export reports to Excel/PDF
+- Authentication and user roles
+- Advanced analytics and KPIs
